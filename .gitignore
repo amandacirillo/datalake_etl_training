@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+cdk/cdk.out/
+cdk/cdk-outputs.json
+*.log
+.idea/
+.vscode/
+*.db
+*.parquet
