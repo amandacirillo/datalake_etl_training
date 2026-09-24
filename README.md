@@ -1,5 +1,7 @@
 # ETL Into a Data Lake Training
 
+> **Note:** This is a from-scratch recreation of an architectural pattern I built at my employer, not the original production code -- rebuilt with a fabricated/generic domain and no proprietary business logic, credentials, or internal resource identifiers.
+
 A small, runnable model of the **event-driven, idempotent ETL pipeline** pattern used by
 `datalake-service`. It reimplements the shape of that pipeline against a generic **"raw extract
 files from various source systems"** domain instead of the real proprietary fixed-width-file
